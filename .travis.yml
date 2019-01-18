@@ -1,12 +1,12 @@
-dist: trusty
+dist: xenial
 sudo: required
-group: deprecated-2017Q4
 
 language: go
 go_import_path: github.com/opensds/opensds
 
 go:
   - 1.9.x
+  - 1.11.x
   - tip
 
 env:
